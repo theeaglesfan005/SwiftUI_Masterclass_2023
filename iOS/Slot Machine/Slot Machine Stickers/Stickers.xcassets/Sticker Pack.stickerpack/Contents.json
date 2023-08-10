@@ -1,0 +1,38 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  },
+  "stickers" : [
+    {
+      "filename" : "sticker-spin.sticker"
+    },
+    {
+      "filename" : "sticker-seven-reel.sticker"
+    },
+    {
+      "filename" : "sticker-bell.sticker"
+    },
+    {
+      "filename" : "sticker-coin.sticker"
+    },
+    {
+      "filename" : "sticker-casino-chips.sticker"
+    },
+    {
+      "filename" : "sticker-cherry.sticker"
+    },
+    {
+      "filename" : "sticker-grape.sticker"
+    },
+    {
+      "filename" : "sticker-strawberry.sticker"
+    },
+    {
+      "filename" : "sticker-seven.sticker"
+    }
+  ]
+}

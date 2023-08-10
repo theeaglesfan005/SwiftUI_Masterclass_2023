@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22146" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22122"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gfx-background" translatesAutoresizingMaskIntoConstraints="NO" id="NO6-hg-du9">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gfx-slot-machine" translatesAutoresizingMaskIntoConstraints="NO" id="eC3-Gf-EDu">
+                                <rect key="frame" x="46.666666666666657" y="326" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="6IR-19-e1h"/>
+                                    <constraint firstAttribute="width" constant="300" id="SZv-kf-oHx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NO6-hg-du9" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1z8-fZ-TMu"/>
+                            <constraint firstAttribute="bottom" secondItem="NO6-hg-du9" secondAttribute="bottom" id="5aM-vt-JuI"/>
+                            <constraint firstItem="NO6-hg-du9" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="AE2-Rq-sIl"/>
+                            <constraint firstItem="eC3-Gf-EDu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Kdg-F8-6EF"/>
+                            <constraint firstAttribute="trailing" secondItem="NO6-hg-du9" secondAttribute="trailing" id="hEt-mJ-jcR"/>
+                            <constraint firstItem="eC3-Gf-EDu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rlF-8q-jYz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gfx-background" width="3072" height="3072"/>
+        <image name="gfx-slot-machine" width="2118" height="924"/>
+    </resources>
+</document>
